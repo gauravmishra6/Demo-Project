@@ -3,11 +3,7 @@ import csv
 
 # Sample text data
 texts = [
-    "I love AWS CodePipeline, it's amazing!",
-    "This deployment process is so frustrating.",
-    "The weather is okay today.",
-    "I am extremely happy with the service!",
-    "I hate bugs in my code."
+    "How are you?"
 ]
 
 # Analyze sentiment
