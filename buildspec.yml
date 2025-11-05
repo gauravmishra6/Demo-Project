@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       python: 3.9
     commands:
-      - pip install -r requirements.txt
+      - pip install -r sentiment-analysis/requirements.txt
       - python -m textblob.download_corpora
   build:
     commands:
