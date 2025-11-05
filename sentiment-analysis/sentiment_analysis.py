@@ -3,7 +3,7 @@ import csv
 
 # Sample text data
 texts = [
-    "How are you?"
+    "How are you ?"
 ]
 
 # Analyze sentiment
