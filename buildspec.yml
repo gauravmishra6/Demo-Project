@@ -9,7 +9,7 @@ phases:
       - python -m textblob.download_corpora
   build:
     commands:
-      - python sentiment_analysis.py
+      - - python sentiment-analysis/sentiment_analysis.py
 
 artifacts:
   files:
