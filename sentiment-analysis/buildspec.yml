@@ -2,16 +2,13 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      python: 3.9
     commands:
-      - echo "Updating pip..."
-      - pip install --upgrade pip
-      - echo "Installing dependencies..."
       - pip install -r requirements.txt
-      - python -m textblob.download_corpora  # Download NLTK corpora for TextBlob
-
+      - python -m textblob.download_corpora
   build:
     commands:
-      - echo "Running Sentiment Analysis..."
       - python sentiment_analysis.py
 
 artifacts:
